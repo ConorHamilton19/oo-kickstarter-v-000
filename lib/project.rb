@@ -11,6 +11,7 @@ class Project
     @backers << backer
    if @backers.empty?
       backer.back_project(self)
+    end 
   end
   
 end
